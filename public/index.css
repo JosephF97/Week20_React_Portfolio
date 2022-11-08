@@ -1,0 +1,46 @@
+:root{
+    --primary: #D3D3D3;
+    --secondary: #808080;
+    --error: #CC0202;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--primary);
+}
+body {
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: var(--secondary);
+}
+
+button {
+    font-size: 1rem;
+    background-color: var(--secondary);
+    color: black;
+    border: none;
+    margin: 0 2px;
+}
+button:hover {
+    opacity: .8;
+    transition: .4s;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Courier New', Courier, monospace;
+}
+
